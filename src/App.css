@@ -88,6 +88,27 @@
     gap: 0;
 }
 
+.resume-button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.4);
+
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.resume-button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.resume-button svg {
+    transition: transform 0.2s ease;
+}
+
+.resume-button:hover svg {
+    transform: scale(1.1);
+}
+
 .hero-image {
     flex-shrink: 0;
     display: flex;
