@@ -3,21 +3,29 @@
     margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 15px;
-}
-
 .hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.hero-title {
-    grid-column: 1 / 7;
+.hero-layout {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 4rem;
 
+    width: 100%;
+}
+
+.hero-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
     font-size: 35px;
     font-weight: 400;
     line-height: 1.1;
@@ -26,17 +34,15 @@
 }
 
 .hero-subtitle {
-    grid-column: 1 / 7;
-
     font-size: 16.25px;
     font-weight: 500;
     color: #fff;
     line-height: 1.6;
+
+    margin-bottom: 20px;
 }
 
 .hero-status {
-    grid-column: 1 / 5;
-
     width: fit-content;
     padding: 4px 16px;
 
@@ -50,13 +56,12 @@
     font-size: 16.25px;
     font-weight: 500;
 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .button-group {
-    grid-column: 1 / 8;
     display: flex;
-    gap: 12px;
+    gap: 15px;
 }
 
 .resume-button {
@@ -78,27 +83,21 @@
 }
 
 .resume-button.icon-only {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-
+    padding: 10px 17px;
     justify-content: center;
     gap: 0;
 }
 
 .hero-image {
-    grid-column: 8 / 12;
-    grid-row: 1 / span 3;
-
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .hero-image img {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    height: 350px;
 
     border-radius: 24px;
     object-fit: cover;
