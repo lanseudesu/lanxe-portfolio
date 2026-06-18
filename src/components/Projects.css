@@ -5,11 +5,12 @@
 .projects-heading {
     text-align: center;
     margin-bottom: 5rem;
+    font-size: 36px;
 }
 
 .projects-layout {
     display: flex;
-    gap: 4rem;
+    gap: 6rem;
 }
 
 .projects-content {
@@ -17,8 +18,8 @@
 }
 
 .projects-image {
-    width: 500px;
-    height: 525px;
+    width: 450px;
+    height: 450px;
 
     position: sticky;
     top: 100px;
@@ -34,8 +35,38 @@
 
 .project-card {
     min-height: 80vh;
+    max-width: 600px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.project-title {
+    margin-bottom: 0.5rem;
+}
+
+.project-stack {
+    color: #586f83;
+    font-size: 0.9rem;
+}
+
+.project-date {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.project-highlights {
+    padding-left: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.project-highlights li {
+    font-size: 0.9rem;
+    text-align: justify;
+    color: #fff;
+    line-height: 1.6;
 }
