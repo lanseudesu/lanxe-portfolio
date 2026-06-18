@@ -1,3 +1,4 @@
+import './Hero.css';
 import profilePic from "../assets/profile.jpg";
 
 import { FiDownload, FiMail, FiLinkedin, FiGithub } from "react-icons/fi";
