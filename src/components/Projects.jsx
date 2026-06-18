@@ -90,6 +90,79 @@ function Projects() {
                     </li>  
                 </ul>
             </article>
+
+            <article className="project-card">
+                <h2 className="project-title">
+                    MAFA Property Management System
+                </h2>
+
+                <p className="project-stack">
+                    Full-Stack · React · ExpressJS · Supabase
+                </p>
+
+                <p className="project-date">
+                    2025
+                </p>    
+
+                <ul className="project-highlights">
+                    <li>
+                        Property management system for Inventi Hackathon built with React, ExpressJS, and Supabase.
+                    </li>
+    
+                    <li>
+                        Web app that enables property managers to upload floor plans and track maintenance issues using an interactive map interface.
+                    </li>  
+                </ul>
+            </article>
+
+            <article className="project-card">
+                <h2 className="project-title">
+                    Math and Match Memory Card Game
+                </h2>
+
+                <p className="project-stack">
+                    Full-Stack · Mobile · Game Development · Flutter
+                </p>
+
+                <p className="project-date">
+                    2025
+                </p>    
+
+                <ul className="project-highlights">
+                    <li>
+                        Full-stack and lead developer for a mobile memory card game built with Flutter.
+                    </li>
+    
+                    <li>
+                        Designed and implemented game mechanics, user interface, and backend services for player data management.
+                    </li>  
+                </ul>
+            </article>
+
+            <article className="project-card">
+                <h2 className="project-title">
+                    Kinetiq
+                </h2>
+
+                <p className="project-stack">
+                    Full-Stack · React · Database Management · Django · PostgreSQL
+                </p>
+
+                <p className="project-date">
+                    2025
+                </p>    
+
+                <ul className="project-highlights">
+                    <li>
+                        Built RESTful backend services using Django and PostgreSQL and integrated frontend components with
+backend APIs.
+                    </li>
+    
+                    <li>
+                        Deployed serverless infrastructure using AWS and Zappa.
+                    </li>  
+                </ul>
+            </article>
         </div>
 
         <div className="projects-image">
