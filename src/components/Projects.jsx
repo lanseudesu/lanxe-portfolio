@@ -15,7 +15,7 @@ function Projects() {
                 <h2 className="project-title">
                     Enhanced ORB for Retinal Image Feature Extraction
                 </h2>
-
+    
                 <p className="project-stack">
                     Computer Vision · Undergraduate Thesis · Python
                 </p>
