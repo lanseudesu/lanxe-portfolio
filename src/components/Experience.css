@@ -1,8 +1,8 @@
 .tab-buttons {
     display: flex;
 
-    background: #162433;
-    margin-bottom: 2rem;
+    background: #1d2a37;
+    margin: 2rem 0;
 
     border-radius: 8px;
 }
@@ -26,12 +26,12 @@
 }
 
 .tab-buttons button.active {
-    background: #101a23;
+    background: #090e13;
     color: #fff;
 }
 
 .tab-buttons button:hover {
-    background: #101a23;
+    background: #090e13;
     color: #fff;
 }
 

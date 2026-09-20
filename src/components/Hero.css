@@ -23,17 +23,17 @@
 }
 
 .hero-subtitle {
-    font-size: 16.25px;
+    font-size: 16px;
     font-weight: 500;
     color: #fff;
     line-height: 1.6;
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero-status {
     width: fit-content;
-    padding: 4px 16px;
+    padding: 3px 10px;
 
     border-radius: 999px;
 
@@ -42,10 +42,10 @@
     background: #007a3923;;
     color: #8effc3;
 
-    font-size: 16.25px;
+    font-size: 15px;
     font-weight: 500;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .button-group {
