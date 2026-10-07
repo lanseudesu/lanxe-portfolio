@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { FiExternalLink } from "react-icons/fi";
 
-import companyLogo from "../assets/profile.jpg";
+import altpaynetLogo from "../assets/altpaynet.jpg";
+import plmLogo from "../assets/plm.png";
+import pupLogo from "../assets/pup.png";
 import "./Experience.css";
 
 function Experience() {
@@ -12,7 +14,7 @@ function Experience() {
             company: "AltPayNet Corp.",
             role: "Development, Security and Operations Intern",
             date: "2025",
-            logo: companyLogo,
+            logo: altpaynetLogo,
             highlights: [
             "Enhanced the UI/UX and mobile responsiveness of company microsites, including APAS and E-Snapped.",
             "Integrated CDN solutions and collaborated with the development team through Agile sprint planning and development cycles.",
@@ -36,7 +38,7 @@ function Experience() {
             school: "Pamantasan ng Lungsod ng Maynila",
             degree: "B.S. Computer Science",
             date: "2022–2026",
-            logo: companyLogo,
+            logo: plmLogo,
             highlights: [
                 "Graduated Magna Cum Laude with 1.33 GWA.",
                 "Developed an undergraduate thesis on retinal image feature extraction using computer vision and Python.",
@@ -48,7 +50,7 @@ function Experience() {
             school: "Polytechnic University of the Philippines",
             degree: "SHS-STEM",
             date: "2020-2022",
-            logo: companyLogo,
+            logo: pupLogo,
             highlights: [
                 "Graduated with high honors."
             ]
