@@ -4,7 +4,7 @@ import profilePic from "../assets/profile.jpg";
 import { FiDownload, FiMail, FiLinkedin, FiGithub } from "react-icons/fi";
 
 const buttons = [
-  { label: "Resume", icon: <FiDownload />, link: "/resume.pdf", showLabel: true },
+  { label: "Resume", icon: <FiDownload />, link: "/Fernandez-Resume-2026.pdf", showLabel: true },
   { icon: <FiMail />, link: "mailto:lantisfernandez29@gmail.com", showLabel: false },
   { icon: <FiLinkedin />, link: "https://www.linkedin.com/in/lantisfernandez/", showLabel: false },
   { icon: <FiGithub />, link: "https://github.com/lanseudesu", showLabel: false },
